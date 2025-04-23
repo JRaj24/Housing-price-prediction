@@ -16,6 +16,12 @@ This project involves exploring and analyzing a dataset of house prices, with th
 2. **house_price_analysis.py** - Python script for performing data analysis, cleaning, and visualizations.
 
 ## Output
+![image](https://github.com/user-attachments/assets/52194586-08cf-4a0b-9e1b-7bd025c2752d)
+
+![image](https://github.com/user-attachments/assets/2aa33747-9a89-4f65-9b83-b76c6d7f679e)
+
+![image](https://github.com/user-attachments/assets/96442474-4f07-4870-8793-9c97064a4e53)
+
 
 ## Steps 
 
@@ -82,15 +88,11 @@ plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.show()
 ```
 
-**Expected Output Image**:
-
-![Average House Prices by Number of Bedrooms](output_images/average_house_price_by_bedrooms.png)
 
 ### 7. Top Features Correlated with SalePrice
 
 A correlation matrix is computed to identify the top 10 features most strongly correlated with the target variable `SalePrice`. A bar plot visualizes these features.
 
-**Output**: A bar plot showing the top 10 features correlated with house price.
 
 ```python
 correlation_matrix = df.corr()
